@@ -19,5 +19,5 @@ jobs:
     - name: Deploy to Surge
       env:
         SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
-      run: surge --project ./ --domain tu-dominio.surge.sh
+      run: surge --project ./ https://stereotyped-throat.surge.sh/
 
